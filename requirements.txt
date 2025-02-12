@@ -1,0 +1,14 @@
+# requirements.txt
+
+# For QR1 code generation and image processing
+
+.
+
+# For QR scanning and real-time webcam feed (used in scanner module)
+opencv-python==4.7.0
+
+# For data manipulation and CSV handling (if using pandas elsewhere)
+pandas==1.5.3
+
+# For decoding QR codes from images (used in the scanner module)
+pyzbar==0.1.9
