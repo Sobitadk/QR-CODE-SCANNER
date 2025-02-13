@@ -1,3 +1,4 @@
+
 # 🎯 Snack Management System
 
 A comprehensive Python solution that seamlessly integrates QR code generation, scanning, and snack management. This system enables you to add participants (manually or via CSV), generate unique QR codes, and automatically manage snack distribution by updating each participant’s snack status upon scanning.
@@ -199,4 +200,3 @@ QR-CODE-SCANNER/
 🌟 This project is open-source and available under the **MIT License**.
 
 ---
-
