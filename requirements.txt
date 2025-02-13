@@ -1,14 +1,12 @@
-# requirements.txt
+# Image processing and computer vision
+opencv-python==4.8.0.76  # OpenCV library for image manipulation and computer vision tasks
 
-# For QR1 code generation and image processing
+# Numerical computing
+numpy==1.26.2            # Essential library for numerical and matrix operations
 
-.
+# Barcode and QR code handling
+pyzbar==0.1.9            # Barcode and QR code decoder using ZBar
+qrcode[pil]==7.4.2       # QR code generator with PIL (Python Imaging Library) support
 
-# For QR scanning and real-time webcam feed (used in scanner module)
-opencv-python==4.7.0
-
-# For data manipulation and CSV handling (if using pandas elsewhere)
-pandas==1.5.3
-
-# For decoding QR codes from images (used in the scanner module)
-pyzbar==0.1.9
+# PNG image processing
+pypng==0.20220715.0      # Lightweight library for encoding and decoding PNG images
