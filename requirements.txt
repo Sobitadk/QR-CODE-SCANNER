@@ -11,7 +11,8 @@ qrcode[pil]==7.4.2       # QR code generator with PIL (Python Imaging Library) s
 # PNG image processing
 pypng==0.20220715.0      # Lightweight library for encoding and decoding PNG images
 
-# Additional dependencies for improved functionality
-pillow==9.4.0            # Python Imaging Library (PIL) for image processing
-scikit-image==0.20.0     # Library for image processing and computer vision tasks
+# Additional dependencies for improved functionalit
+Pillow==10.4.0  # or another available version
+          # Python Imaging Library (PIL) for image processing
+#  insta;; -r rqscikit-image==0.20.0     # Library for image processing and computer vision tasks
 matplotlib==3.7.1        # Data visualization library for displaying images
