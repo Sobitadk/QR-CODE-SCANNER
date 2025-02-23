@@ -10,7 +10,7 @@ function Dashboard() {
   const [participants, setParticipants] = useState([]);
   const [message, setMessage] = useState("");
   const [activeSection, setActiveSection] = useState("totalStudents");
-  const [qrCodes, setQrCodes] = useState({}); // Store QR codes as ID: Base64 URL
+  const [qrCodes, setQrCodes] = useState({}); 
 
   useEffect(() => {
     fetchParticipants();

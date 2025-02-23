@@ -3,16 +3,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Dashboard from "./components/Dashboard";
-import GenerateQR from "./components/GenerateQR";
 import ScanQR from "./components/ScanQR";
-import ResetOptions from "./components/ResetOptions";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import About from "./components/about";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
-  // Toggle the dark class on the html element for dark mode
+  
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");
@@ -28,10 +26,8 @@ function App() {
         <div className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/generate" element={<GenerateQR />} />
+            <Route path="/dashboard" element={<Dashboard />}/>
             <Route path="/scan" element={<ScanQR />} />
-            <Route path="/reset" element={<ResetOptions />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/about" element={<About />} />
           </Routes>

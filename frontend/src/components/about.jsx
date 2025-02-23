@@ -1,6 +1,6 @@
-// src/components/About.jsx
+
 import React from "react";
-import { FaGithub } from "react-icons/fa"; // For GitHub icon
+import { FaGithub } from "react-icons/fa"; 
 
 const About = () => {
   return (
@@ -44,7 +44,7 @@ const About = () => {
             Created by <span className="font-medium text-blue-600">Sobit Adhikari</span>, this project is open-source and available on GitHub.
           </p>
 
-          {/* GitHub Repository Link */}
+      
           <a
             href="https://github.com/Sobitadk/QR-CODE-SCANNER"
             target="_blank"
