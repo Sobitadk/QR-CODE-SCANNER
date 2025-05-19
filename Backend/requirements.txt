@@ -1,0 +1,23 @@
+# Backend framework
+fastapi                   # Web framework for building APIs
+uvicorn                   # ASGI server to run FastAPI apps
+
+# Data validation and file handling
+pydantic                  # Data validation used in FastAPI models
+python-multipart          # Required for handling form and file uploads
+aiofiles                  # For async file operations (e.g., uploads/downloads)
+
+# QR code generation and image processing
+qrcode                    # For generating QR codes
+pillow                    # Python Imaging Library, used to edit QR images
+
+# Environment configuration
+python-dotenv             # Loads variables from a .env file
+
+# QR code scanning
+opencv-python             # OpenCV for accessing webcam and processing frames
+pyzbar                    # For decoding QR codes from webcam feed
+numpy                     # Used by OpenCV for numerical operations
+
+# 👇 Install all packages with the following command:
+# pip install -r requirements.txt
